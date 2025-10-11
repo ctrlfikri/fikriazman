@@ -2,18 +2,19 @@
   "name": "nuxt3-portfolio",
   "version": "1.0.0",
   "description": "A modern personal portfolio built with Nuxt 3, Vite, and Tailwind CSS.",
-  "author": "Your Name",
+  "author": "Fikri Azman",
   "license": "MIT",
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
-    "start": "nuxt preview"
+    "start": "nuxt start"
   },
   "dependencies": {
-    "nuxt": "^3.7.0"
+    "nuxt": "^3.13.0",
+    "@nuxtjs/tailwindcss": "^6.11.4"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^6.14.0"
+    "vite": "^5.0.0"
   },
   "engines": {
     "node": ">=18"
