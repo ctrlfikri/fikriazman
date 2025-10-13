@@ -119,10 +119,10 @@
         </svg>
 
         <!-- Corner brackets (LED board frame) -->
-            <div class="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-white/20"></div>
-            <div class="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-white/20"></div>
-            <div class="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-white/20"></div>
-            <div class="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-white/20"></div>
+        <div class="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-white/20"></div>
+        <div class="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-white/20"></div>
+        <div class="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-white/20"></div>
+        <div class="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-white/20"></div>
 
         <!-- Power indicator -->
         <div class="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2">
@@ -140,7 +140,6 @@
             >
               MY PROJECTS
             </h1>
-
           </div>
 
           <!-- Divider line with animation -->
@@ -177,6 +176,13 @@
         <ProjectCard />
       </div>
     </div>
+
+    <!-- Work Experience Section -->
+    <div class="w-full bg-black">
+      <div class="border border-white/10 w-full max-w-7xl mx-auto">
+        <WorkExperience />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -184,6 +190,7 @@
 import HeroSection from '@/components/HeroSection.vue'
 import SkillCard from '@/components/SkillCard.vue'
 import ProjectCard from '@/components/ProjectCard.vue'
+import WorkExperience from '@/components/WorkExperience.vue'
 </script>
 
 <style scoped>

@@ -256,7 +256,6 @@ const projects = [
     textColor: 'text-white',
     buttonBg: 'bg-white',
     buttonText: 'text-blue-700',
-    fontFamily: 'font-bebas',
   },
   {
     id: 2,
@@ -355,10 +354,10 @@ onUnmounted(() => {
     opacity: 0;
   }
   10% {
-    opacity: 0.6;
+    opacity: 0.15;
   }
   90% {
-    opacity: 0.4;
+    opacity: 0.1;
   }
   100% {
     transform: translateY(-120vh) scale(1.2);
