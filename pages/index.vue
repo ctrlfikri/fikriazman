@@ -89,9 +89,9 @@
 
     <!-- Projects Section - LED Board Style -->
     <div class="w-full bg-black">
-      <div class="w-full border border-white/10 py-12 sm:py-16 md:py-20 lg:py-24 flex justify-center items-center overflow-hidden max-w-7xl mx-auto relative">
+      <div class="w-full h-600 border border-white/10 py-12 sm:py-8 md:py-12 lg:py-18 flex justify-center items-center overflow-hidden max-w-7xl mx-auto relative">
         <!-- LED Dotted Background - Enhanced -->
-        <svg class="absolute inset-0 w-full h-full opacity-80" viewBox="0 0 1200 300" preserveAspectRatio="none">
+        <svg class="absolute inset-0 w-full  opacity-80" viewBox="0 0 1200 300" preserveAspectRatio="none">
           <defs>
             <!-- LED dot pattern -->
             <pattern id="led-dots" x="0" y="0" width="15" height="15" patternUnits="userSpaceOnUse">

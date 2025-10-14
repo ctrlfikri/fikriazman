@@ -94,6 +94,7 @@
             :key="role.id"
             class="flex-shrink-0 w-[85vw] snap-center relative bg-zinc-950 border border-gray-800 p-8"
           >
+          
             <!-- Title & Level -->
             <div class="mb-6 flex items-center justify-between">
             <div>
