@@ -175,9 +175,23 @@
 
       <div class="w-full bg-black">
       <div class="border border-white/10 w-full max-w-7xl mx-auto">
+        <DataCard />
+      </div>
+    </div>
+
+      <div class="w-full bg-black">
+      <div class="border border-white/10 w-full max-w-7xl mx-auto">
+        <AboutMe />
+      </div>
+    </div>
+
+      <div class="w-full bg-black">
+      <div class="border border-white/10 w-full max-w-7xl mx-auto">
         <RoleCard />
       </div>
     </div>
+
+
 
 </template>
 
@@ -187,6 +201,8 @@ import SkillCard from '@/components/SkillCard.vue'
 import ProjectCard from '@/components/ProjectCard.vue'
 import WorkExperience from '@/components/WorkExperience.vue'
 import RoleCard from '@/components/RoleCard.vue'
+import DataCard from '@/components/DataCard.vue'
+import AboutMe from '@/components/AboutMe.vue'
 </script>
 
 <style scoped>
