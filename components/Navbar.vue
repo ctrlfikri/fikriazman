@@ -2,7 +2,7 @@
   <nav class="bg-black py-4 px-8">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <div class="text-white text-2xl font-extrabold tracking-widest uppercase select-none">
-        <span class="inline-block transition-transform duration-300 hover:scale-105">FIKRI</span>
+        <span class="inline-block transition-transform duration-300 hover:scale-105">FIKRIAZMAN</span>
       </div>
       <button
         class="md:hidden text-white focus:outline-none"
@@ -15,13 +15,14 @@
         </svg>
       </button>
       <ul
-        class="hidden md:flex space-x-8 text-lg font-semibold tracking-wide"
+        class="hidden md:flex space-x-8 text-lg font-light"
       >
         <li v-for="item in nav" :key="item.to">
           <NuxtLink
             :to="item.to"
-            class="nav-link relative text-white/80 hover:text-white transition"
-            active-class="text-white"
+            class="nav-link relative text-white/40 hover:text-white transition"
+            active-class="!text-white"
+            exact-active-class="!text-white"
           >
             {{ item.label }}
             <span class="nav-underline"></span>
@@ -65,7 +66,7 @@ const nav = [
 <style scoped>
 .nav-link {
   padding-bottom: 2px;
-  letter-spacing: 0.08em;
+
   display: inline-block;
 }
 .nav-underline {

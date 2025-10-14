@@ -1,10 +1,13 @@
 <template>
-  <div class="min-h-screen bg-black text-white py-24 px-6">
+  <div class=" bg-black text-white py-24 px-6">
     <div class="max-w-7xl mx-auto">
       <!-- Header -->
       <div class="mb-16">
         <h2 class="text-5xl md:text-6xl font-semibold tracking-tight mb-3">
-          Available for work
+        I'm ready for
+         <span class="bg-yellow-400 text-black px-2 gap-16">
+                these role
+            </span>
         </h2>
         <p class="text-gray-500 text-lg">Open to new opportunities</p>
       </div>
@@ -94,7 +97,7 @@
             :key="role.id"
             class="flex-shrink-0 w-[85vw] snap-center relative bg-zinc-950 border border-gray-800 p-8"
           >
-          
+
             <!-- Title & Level -->
             <div class="mb-6 flex items-center justify-between">
             <div>
@@ -185,8 +188,8 @@ const roles = [
   {
     id: 1,
     title: "Web Developer",
-    interest: 95,
-    level: "Mid-level",
+    interest: 75,
+    level: "Entry to Junior",
     remote: true,
     onsite: true,
     employment: ["Full-time", "Part-time"]
@@ -195,7 +198,7 @@ const roles = [
     id: 2,
     title: "Graphic Designer",
     interest: 88,
-    level: "Junior",
+    level: "Junior to Mid-Level",
     preferred: true,
     remote: true,
     onsite: true,
@@ -205,7 +208,7 @@ const roles = [
     id: 3,
     title: "Video Editor",
     interest: 82,
-    level: "Junior",
+    level: "Junior to Mid-Level",
     remote: true,
     onsite: false,
     employment: ["Part-time"]

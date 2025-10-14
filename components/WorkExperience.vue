@@ -11,7 +11,7 @@
         </h2>
         
         <!-- Stats - Side by side -->
-        <div class="flex items-center gap-8 sm:gap-12 border-l border-white/10 pl-6">
+        <div class="flex items-center justify-center mx-auto gap-8 sm:gap-12 border-l border-white/10 pl-6">
           <div>
             <div class="text-4xl sm:text-5xl font-bold font-mono">{{ totalYears }}+</div>
             <div class="text-xs sm:text-sm text-gray-400 uppercase tracking-wider mt-1">Years</div>
