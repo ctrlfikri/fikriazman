@@ -21,9 +21,11 @@ interface _GlobalComponents {
   'Footer': typeof import("../../components/Footer.vue")['default']
   'HeroSection': typeof import("../../components/HeroSection.vue")['default']
   'Navbar': typeof import("../../components/Navbar.vue")['default']
+  'ProjectBanner': typeof import("../../components/ProjectBanner.vue")['default']
   'ProjectCard': typeof import("../../components/ProjectCard.vue")['default']
   'RoleCard': typeof import("../../components/RoleCard.vue")['default']
   'SkillCard': typeof import("../../components/SkillCard.vue")['default']
+  'SkillSectionHeader': typeof import("../../components/SkillSectionHeader.vue")['default']
   'WorkExperience': typeof import("../../components/WorkExperience.vue")['default']
   'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -55,9 +57,11 @@ interface _GlobalComponents {
   'LazyFooter': LazyComponent<typeof import("../../components/Footer.vue")['default']>
   'LazyHeroSection': LazyComponent<typeof import("../../components/HeroSection.vue")['default']>
   'LazyNavbar': LazyComponent<typeof import("../../components/Navbar.vue")['default']>
+  'LazyProjectBanner': LazyComponent<typeof import("../../components/ProjectBanner.vue")['default']>
   'LazyProjectCard': LazyComponent<typeof import("../../components/ProjectCard.vue")['default']>
   'LazyRoleCard': LazyComponent<typeof import("../../components/RoleCard.vue")['default']>
   'LazySkillCard': LazyComponent<typeof import("../../components/SkillCard.vue")['default']>
+  'LazySkillSectionHeader': LazyComponent<typeof import("../../components/SkillSectionHeader.vue")['default']>
   'LazyWorkExperience': LazyComponent<typeof import("../../components/WorkExperience.vue")['default']>
   'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>

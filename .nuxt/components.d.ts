@@ -21,9 +21,11 @@ export const ExperienceCard: typeof import("../components/ExperienceCard.vue")['
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const HeroSection: typeof import("../components/HeroSection.vue")['default']
 export const Navbar: typeof import("../components/Navbar.vue")['default']
+export const ProjectBanner: typeof import("../components/ProjectBanner.vue")['default']
 export const ProjectCard: typeof import("../components/ProjectCard.vue")['default']
 export const RoleCard: typeof import("../components/RoleCard.vue")['default']
 export const SkillCard: typeof import("../components/SkillCard.vue")['default']
+export const SkillSectionHeader: typeof import("../components/SkillSectionHeader.vue")['default']
 export const WorkExperience: typeof import("../components/WorkExperience.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -55,9 +57,11 @@ export const LazyExperienceCard: LazyComponent<typeof import("../components/Expe
 export const LazyFooter: LazyComponent<typeof import("../components/Footer.vue")['default']>
 export const LazyHeroSection: LazyComponent<typeof import("../components/HeroSection.vue")['default']>
 export const LazyNavbar: LazyComponent<typeof import("../components/Navbar.vue")['default']>
+export const LazyProjectBanner: LazyComponent<typeof import("../components/ProjectBanner.vue")['default']>
 export const LazyProjectCard: LazyComponent<typeof import("../components/ProjectCard.vue")['default']>
 export const LazyRoleCard: LazyComponent<typeof import("../components/RoleCard.vue")['default']>
 export const LazySkillCard: LazyComponent<typeof import("../components/SkillCard.vue")['default']>
+export const LazySkillSectionHeader: LazyComponent<typeof import("../components/SkillSectionHeader.vue")['default']>
 export const LazyWorkExperience: LazyComponent<typeof import("../components/WorkExperience.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
