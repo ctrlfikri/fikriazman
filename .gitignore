@@ -1,0 +1,25 @@
+# Create/edit .gitignore
+notepad .gitignore
+```
+
+Add this content to `.gitignore`:
+```
+# Nuxt dev/build outputs
+.nuxt
+.output
+.data
+.env
+
+# Node dependencies
+node_modules
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode
+.idea
