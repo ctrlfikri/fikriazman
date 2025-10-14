@@ -20,6 +20,7 @@ interface _GlobalComponents {
   'HeroSection': typeof import("../../components/HeroSection.vue")['default']
   'Navbar': typeof import("../../components/Navbar.vue")['default']
   'ProjectCard': typeof import("../../components/ProjectCard.vue")['default']
+  'RoleCard': typeof import("../../components/RoleCard.vue")['default']
   'SkillCard': typeof import("../../components/SkillCard.vue")['default']
   'WorkExperience': typeof import("../../components/WorkExperience.vue")['default']
   'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -51,6 +52,7 @@ interface _GlobalComponents {
   'LazyHeroSection': LazyComponent<typeof import("../../components/HeroSection.vue")['default']>
   'LazyNavbar': LazyComponent<typeof import("../../components/Navbar.vue")['default']>
   'LazyProjectCard': LazyComponent<typeof import("../../components/ProjectCard.vue")['default']>
+  'LazyRoleCard': LazyComponent<typeof import("../../components/RoleCard.vue")['default']>
   'LazySkillCard': LazyComponent<typeof import("../../components/SkillCard.vue")['default']>
   'LazyWorkExperience': LazyComponent<typeof import("../../components/WorkExperience.vue")['default']>
   'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>

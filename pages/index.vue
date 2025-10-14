@@ -41,8 +41,8 @@
 
               <!-- Title with typing cursor effect -->
               <div class="mb-3 sm:mb-4 flex items-baseline justify-center">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-wider">
-                  My Skills<span class="animate-blink-cursor">_</span>
+                <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-wider">
+                  MY SKILLS<span class="animate-blink-cursor">_</span>
                 </h1>
               </div>
 
@@ -118,18 +118,6 @@
           </rect>
         </svg>
 
-        <!-- Corner brackets (LED board frame) -->
-        <div class="absolute top-0 left-0 w-12 h-12 border-t-2 border-l-2 border-white/20"></div>
-        <div class="absolute top-0 right-0 w-12 h-12 border-t-2 border-r-2 border-white/20"></div>
-        <div class="absolute bottom-0 left-0 w-12 h-12 border-b-2 border-l-2 border-white/20"></div>
-        <div class="absolute bottom-0 right-0 w-12 h-12 border-b-2 border-r-2 border-white/20"></div>
-
-        <!-- Power indicator -->
-        <div class="absolute top-4 left-1/2 -translate-x-1/2 flex items-center gap-2">
-          <div class="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e] animate-pulse"></div>
-          <span class="text-[10px] text-green-500/70 font-monospace uppercase tracking-wider">ONLINE</span>
-        </div>
-
         <!-- Text Overlay - Responsive -->
         <div class="relative flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 z-10">
           <!-- Main LED Text -->
@@ -149,7 +137,7 @@
 
           <!-- Subtitle -->
           <p class="text-gray-400 font-monospace text-sm sm:text-base md:text-lg lg:text-xl text-center max-w-2xl leading-relaxed px-2">
-            <span class="text-yellow-500/70">&gt;</span> See what I have been involved in.
+            <span class="text-yellow-500/70">&gt;</span> SEE WHAT I HAVE BEEN INVOLVED IN
           </p>
 
           <!-- LED Status Bar -->
@@ -184,6 +172,13 @@
       </div>
     </div>
   </div>
+
+      <div class="w-full bg-black">
+      <div class="border border-white/10 w-full max-w-7xl mx-auto">
+        <RoleCard />
+      </div>
+    </div>
+
 </template>
 
 <script setup>
@@ -191,6 +186,7 @@ import HeroSection from '@/components/HeroSection.vue'
 import SkillCard from '@/components/SkillCard.vue'
 import ProjectCard from '@/components/ProjectCard.vue'
 import WorkExperience from '@/components/WorkExperience.vue'
+import RoleCard from '@/components/RoleCard.vue'
 </script>
 
 <style scoped>

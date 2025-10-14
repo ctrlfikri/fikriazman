@@ -11,8 +11,9 @@
     "postinstall": "chmod +x node_modules/.bin/nuxt"
   },
   "dependencies": {
-    "nuxt": "^3.13.0",
-    "@nuxtjs/tailwindcss": "^6.11.4"
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@tabler/icons-vue": "^3.35.0",
+    "nuxt": "^3.13.0"
   },
   "devDependencies": {
     "vite": "^5.0.0"
@@ -21,4 +22,3 @@
     "node": ">=18"
   }
 }
-

@@ -325,11 +325,6 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-.font-bebas {
-  font-family: 'Bebas Neue', sans-serif;
-}
 
 /* FADE IN UP ANIMATION */
 @keyframes fade-in-up {
