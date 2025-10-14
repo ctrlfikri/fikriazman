@@ -177,7 +177,7 @@ const transitionName = ref('card-swipe')
 const transitionDirection = ref('next')
 
 const skills = [
-  { tab: 'web', name: 'Vue.js', level: 90, expert: true, icon: '⚡', category: 'Frontend', tags: ['Nuxt 3','Composition API','Pinia'] },
+  { tab: 'web', name: 'Nuxt.js', level: 90, expert: true, icon: '⚡', category: 'Frontend', tags: ['Nuxt 3','Composition API','Pinia'] },
   { tab: 'web', name: 'TailwindCSS', level: 85, expert: true, icon: '🎨', category: 'CSS', tags: ['Responsive','Utility-first'] },
   { tab: 'web', name: 'Django', level: 80, expert: true, icon: '🐍', category: 'Backend', tags: ['ORM','Auth','REST API'] },
   { tab: 'web', name: 'PostgreSQL', level: 75, expert: true, icon: '🐘', category: 'Database', tags: ['SQL','Queries'] },

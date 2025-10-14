@@ -54,6 +54,13 @@
       </div>
     </div>
 
+    <!-- Tech Stack -->
+    <div class="w-full bg-black">
+      <div class="max-w-7xl mx-auto">
+        <TechStackBanner />
+      </div>
+    </div>
+
     <!-- Roles -->
     <div class="w-full bg-black">
       <div class="border border-white/10 w-full max-w-7xl mx-auto">
@@ -73,4 +80,5 @@ import WorkExperience from '@/components/WorkExperience.vue'
 import DataCard from '@/components/DataCard.vue'
 import AboutMe from '@/components/AboutMe.vue'
 import RoleCard from '@/components/RoleCard.vue'
+import TechStackBanner from '@/components/TechStackBanner.vue'
 </script>

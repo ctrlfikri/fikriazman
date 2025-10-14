@@ -26,6 +26,7 @@ export const ProjectCard: typeof import("../components/ProjectCard.vue")['defaul
 export const RoleCard: typeof import("../components/RoleCard.vue")['default']
 export const SkillCard: typeof import("../components/SkillCard.vue")['default']
 export const SkillSectionHeader: typeof import("../components/SkillSectionHeader.vue")['default']
+export const TechStackBanner: typeof import("../components/TechStackBanner.vue")['default']
 export const WorkExperience: typeof import("../components/WorkExperience.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -62,6 +63,7 @@ export const LazyProjectCard: LazyComponent<typeof import("../components/Project
 export const LazyRoleCard: LazyComponent<typeof import("../components/RoleCard.vue")['default']>
 export const LazySkillCard: LazyComponent<typeof import("../components/SkillCard.vue")['default']>
 export const LazySkillSectionHeader: LazyComponent<typeof import("../components/SkillSectionHeader.vue")['default']>
+export const LazyTechStackBanner: LazyComponent<typeof import("../components/TechStackBanner.vue")['default']>
 export const LazyWorkExperience: LazyComponent<typeof import("../components/WorkExperience.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
