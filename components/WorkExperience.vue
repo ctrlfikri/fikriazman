@@ -2,65 +2,65 @@
   <section class="w-full bg-black text-white py-12 sm:py-16 lg:py-24 xl:py-32 overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <!-- MOBILE LAYOUT (< lg) -->
-      <div class="lg:hidden space-y-8">
-        <!-- Title & Stats -->
-        <div class="space-y-6">
-          <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold leading-none">
-            WORK<br />EXPERIENCE
-          </h2>
-          
-          <!-- Stats - Side by side -->
-          <div class="flex items-center gap-8 sm:gap-12 border-l border-white/10 pl-6">
-            <div>
-              <div class="text-4xl sm:text-5xl font-bold font-mono">{{ totalYears }}+</div>
-              <div class="text-xs sm:text-sm text-gray-400 uppercase tracking-wider mt-1">Years</div>
-            </div>
-            <div class="w-px h-12 bg-white/10"></div>
-            <div>
-              <div class="text-4xl sm:text-5xl font-bold font-mono">{{ totalRoles }}</div>
-              <div class="text-xs sm:text-sm text-gray-400 uppercase tracking-wider mt-1">Roles</div>
-            </div>
+    <!-- MOBILE LAYOUT (< lg) -->
+    <div class="lg:hidden space-y-8">
+      <!-- Title & Stats -->
+      <div class="space-y-6">
+        <h2 class="text-5xl sm:text-6xl md:text-7xl font-bold leading-none">
+          WORK<br />EXPERIENCE
+        </h2>
+        
+        <!-- Stats - Side by side -->
+        <div class="flex items-center gap-8 sm:gap-12 border-l border-white/10 pl-6">
+          <div>
+            <div class="text-4xl sm:text-5xl font-bold font-mono">{{ totalYears }}+</div>
+            <div class="text-xs sm:text-sm text-gray-400 uppercase tracking-wider mt-1">Years</div>
           </div>
-          
-          <p class="text-sm text-gray-500 uppercase tracking-wider">
-            Swipe to explore →
-          </p>
+          <div class="w-px h-12 bg-white/10"></div>
+          <div>
+            <div class="text-4xl sm:text-5xl font-bold font-mono">{{ totalRoles }}</div>
+            <div class="text-xs sm:text-sm text-gray-400 uppercase tracking-wider mt-1">Roles</div>
+          </div>
         </div>
+        
+        <p class="text-sm text-gray-500 uppercase tracking-wider">
+          Swipe to explore →
+        </p>
+      </div>
 
-        <!-- Cards Carousel -->
-        <div class="w-full">
-          <div class="overflow-x-auto scrollbar-hide -mx-4 px-4 pb-2">
-            <div class="flex gap-4 snap-x snap-mandatory">
-              <div 
-                v-for="(exp, index) in experiences" 
-                :key="exp.id" 
-                @click="activeCard = index"
-                class="flex-shrink-0 w-[280px] xs:w-[320px] sm:w-[360px] snap-center"
-              >
-                <ExperienceCard 
-                  :exp="exp" 
-                  :is-active="true" 
-                  :is-hovered="false" 
-                  show-mode="full" 
-                />
-              </div>
-            </div>
-          </div>
-          
-          <!-- Scroll indicator -->
-          <div class="flex justify-center gap-2 mt-6">
-            <div
-              v-for="(_, index) in experiences"
-              :key="index"
-              :class="[
-                'h-1.5 rounded-full transition-all duration-300',
-                index === activeCard ? 'w-10 bg-white' : 'w-1.5 bg-white/30'
-              ]"
+      <!-- Cards Carousel -->
+      <div class="w-full overflow-x-auto scrollbar-hide snap-x snap-mandatory scroll-smooth -mx-4 px-6 pb-4">
+        <div class="flex gap-6">
+          <div 
+            v-for="(exp, index) in experiences" 
+            :key="exp.id"
+            @click="activeCard = index"
+            class="flex-shrink-0 w-[280px] xs:w-[320px] sm:w-[360px] h-[420px] sm:h-[460px] md:h-[500px] snap-center"
+          >
+            <ExperienceCard 
+              :exp="exp" 
+              :is-active="true" 
+              :is-hovered="false" 
+              show-mode="full" 
             />
           </div>
         </div>
       </div>
+      
+      <!-- Scroll indicator -->
+      <div class="flex justify-center gap-2 mt-6">
+        <button
+          v-for="(_, index) in experiences"
+          :key="index"
+          @click="scrollToIndex(index)"
+          :class="[
+            'h-1.5 rounded-full transition-all duration-300',
+            index === activeCard ? 'w-10 bg-white' : 'w-1.5 bg-white/30'
+          ]"
+        />
+      </div>
+    </div>
+
 
       <!-- DESKTOP LAYOUT (>= lg) -->
       <div class="hidden lg:flex gap-16 xl:gap-20">
