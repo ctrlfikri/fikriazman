@@ -1,7 +1,7 @@
 <template>
   <section
     ref="hero"
-    class="relative w-full h-screen bg-black text-white flex items-center justify-center overflow-hidden"
+    class="relative w-full py-12 bg-black text-white flex items-center justify-center overflow-hidden"
     @mousemove="handleMouseMove"
     @mouseleave="resetTilt"
   >

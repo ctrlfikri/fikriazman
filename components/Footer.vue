@@ -1,5 +1,5 @@
 <template>
-<section class="relative w-full bg-white text-black border-t border-black/10 py-20 sm:py-24 lg:py-32 overflow-hidden">
+<section class="relative w-full bg-white text-black border-t border-black/10 py-12 sm:py-24 lg:py-32 overflow-hidden">
   <!-- Animated radial whoosh background -->
   <div class="absolute inset-0 overflow-hidden">
     <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(0,0,0,0.05)_0%,_transparent_70%)] animate-zoom"></div>
