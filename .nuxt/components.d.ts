@@ -14,9 +14,11 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 
+export const AboutHero: typeof import("../components/AboutHero.vue")['default']
 export const AboutMe: typeof import("../components/AboutMe.vue")['default']
 export const ContactForm: typeof import("../components/ContactForm.vue")['default']
 export const DataCard: typeof import("../components/DataCard.vue")['default']
+export const EducationSection: typeof import("../components/EducationSection.vue")['default']
 export const ExperienceCard: typeof import("../components/ExperienceCard.vue")['default']
 export const Footer: typeof import("../components/Footer.vue")['default']
 export const HeroSection: typeof import("../components/HeroSection.vue")['default']
@@ -51,9 +53,11 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
+export const LazyAboutHero: LazyComponent<typeof import("../components/AboutHero.vue")['default']>
 export const LazyAboutMe: LazyComponent<typeof import("../components/AboutMe.vue")['default']>
 export const LazyContactForm: LazyComponent<typeof import("../components/ContactForm.vue")['default']>
 export const LazyDataCard: LazyComponent<typeof import("../components/DataCard.vue")['default']>
+export const LazyEducationSection: LazyComponent<typeof import("../components/EducationSection.vue")['default']>
 export const LazyExperienceCard: LazyComponent<typeof import("../components/ExperienceCard.vue")['default']>
 export const LazyFooter: LazyComponent<typeof import("../components/Footer.vue")['default']>
 export const LazyHeroSection: LazyComponent<typeof import("../components/HeroSection.vue")['default']>

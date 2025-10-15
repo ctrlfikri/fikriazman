@@ -1,26 +1,25 @@
 <template>
-  <div class="max-w-4xl mx-auto px-4 py-8">
-    <h1 class="text-3xl font-bold mb-4">About Me</h1>
-    <p class="mb-4">
-      Hello! I'm a passionate web developer with a strong background in building dynamic and responsive web applications. I enjoy creating user-friendly interfaces and writing clean, maintainable code.
-    </p>
-    <h2 class="text-2xl font-semibold mb-2">Skills</h2>
-    <ul class="list-disc list-inside mb-4">
-      <li>JavaScript</li>
-      <li>Vue.js</li>
-      <li>Nuxt.js</li>
-      <li>Tailwind CSS</li>
-      <li>HTML & CSS</li>
-    </ul>
-    <h2 class="text-2xl font-semibold mb-2">Experience</h2>
-    <p>
-      I have worked on various projects ranging from small personal websites to large-scale applications. My experience includes collaborating with cross-functional teams to deliver high-quality products on time.
-    </p>
-  </div>
+  <main class="min-h-screen bg-black text-white">
+
+    <!-- About Hero-->
+    <div class="border border-white/10 w-full max-w-7xl mx-auto">
+      <div class="max-w-7xl mx-auto">
+        <AboutHero />
+      </div>
+    </div>
+
+        <!-- Timeline Edu-->
+    <div class="border border-white/10 w-full max-w-7xl mx-auto">
+      <div class="max-w-7xl mx-auto">
+        <EducationSection />
+      </div>
+    </div>
+
+    <!-- Soft Skills coming soon -->
+  </main>
 </template>
 
 <script setup>
+import AboutHero from "@/components/AboutHero.vue"
+import EducationSection from "@/components/EducationSection.vue"
 </script>
-
-<style scoped>
-</style>
