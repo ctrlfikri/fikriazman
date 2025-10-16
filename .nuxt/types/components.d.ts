@@ -22,13 +22,20 @@ interface _GlobalComponents {
   'ExperienceCard': typeof import("../../components/ExperienceCard.vue")['default']
   'Footer': typeof import("../../components/Footer.vue")['default']
   'HeroSection': typeof import("../../components/HeroSection.vue")['default']
+  'HowIWork': typeof import("../../components/HowIWork.vue")['default']
   'Navbar': typeof import("../../components/Navbar.vue")['default']
+  'OfficialProjects': typeof import("../../components/OfficialProjects.vue")['default']
   'ProjectBanner': typeof import("../../components/ProjectBanner.vue")['default']
   'ProjectCard': typeof import("../../components/ProjectCard.vue")['default']
   'RoleCard': typeof import("../../components/RoleCard.vue")['default']
+  'SelfWorks': typeof import("../../components/SelfWorks.vue")['default']
   'SkillCard': typeof import("../../components/SkillCard.vue")['default']
   'SkillSectionHeader': typeof import("../../components/SkillSectionHeader.vue")['default']
   'TechStackBanner': typeof import("../../components/TechStackBanner.vue")['default']
+  'WhoIAm': typeof import("../../components/WhoIAm.vue")['default']
+  'WhoIAmHeader': typeof import("../../components/WhoIAmHeader.vue")['default']
+  'WhyWorkWithMe': typeof import("../../components/WhyWorkWithMe.vue")['default']
+  'WhyWorkWithMeHeader': typeof import("../../components/WhyWorkWithMeHeader.vue")['default']
   'WorkExperience': typeof import("../../components/WorkExperience.vue")['default']
   'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -61,13 +68,20 @@ interface _GlobalComponents {
   'LazyExperienceCard': LazyComponent<typeof import("../../components/ExperienceCard.vue")['default']>
   'LazyFooter': LazyComponent<typeof import("../../components/Footer.vue")['default']>
   'LazyHeroSection': LazyComponent<typeof import("../../components/HeroSection.vue")['default']>
+  'LazyHowIWork': LazyComponent<typeof import("../../components/HowIWork.vue")['default']>
   'LazyNavbar': LazyComponent<typeof import("../../components/Navbar.vue")['default']>
+  'LazyOfficialProjects': LazyComponent<typeof import("../../components/OfficialProjects.vue")['default']>
   'LazyProjectBanner': LazyComponent<typeof import("../../components/ProjectBanner.vue")['default']>
   'LazyProjectCard': LazyComponent<typeof import("../../components/ProjectCard.vue")['default']>
   'LazyRoleCard': LazyComponent<typeof import("../../components/RoleCard.vue")['default']>
+  'LazySelfWorks': LazyComponent<typeof import("../../components/SelfWorks.vue")['default']>
   'LazySkillCard': LazyComponent<typeof import("../../components/SkillCard.vue")['default']>
   'LazySkillSectionHeader': LazyComponent<typeof import("../../components/SkillSectionHeader.vue")['default']>
   'LazyTechStackBanner': LazyComponent<typeof import("../../components/TechStackBanner.vue")['default']>
+  'LazyWhoIAm': LazyComponent<typeof import("../../components/WhoIAm.vue")['default']>
+  'LazyWhoIAmHeader': LazyComponent<typeof import("../../components/WhoIAmHeader.vue")['default']>
+  'LazyWhyWorkWithMe': LazyComponent<typeof import("../../components/WhyWorkWithMe.vue")['default']>
+  'LazyWhyWorkWithMeHeader': LazyComponent<typeof import("../../components/WhyWorkWithMeHeader.vue")['default']>
   'LazyWorkExperience': LazyComponent<typeof import("../../components/WorkExperience.vue")['default']>
   'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
