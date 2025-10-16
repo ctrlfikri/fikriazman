@@ -39,6 +39,14 @@ interface _GlobalComponents {
   'WhyWorkWithMe': typeof import("../../components/WhyWorkWithMe.vue")['default']
   'WhyWorkWithMeHeader': typeof import("../../components/WhyWorkWithMeHeader.vue")['default']
   'WorkExperience': typeof import("../../components/WorkExperience.vue")['default']
+  'DareiacoffeeComponentsBeforeAfterSlider': typeof import("../../components/dareiacoffee-components/BeforeAfterSlider.vue")['default']
+  'DareiacoffeeComponentsBentoItem': typeof import("../../components/dareiacoffee-components/BentoItem.vue")['default']
+  'DareiacoffeeComponentsDareiaAbout': typeof import("../../components/dareiacoffee-components/DareiaAbout.vue")['default']
+  'DareiacoffeeComponentsDareiaCTA': typeof import("../../components/dareiacoffee-components/DareiaCTA.vue")['default']
+  'DareiacoffeeComponentsDareiaCarousel': typeof import("../../components/dareiacoffee-components/DareiaCarousel.vue")['default']
+  'DareiacoffeeComponentsDareiaHero': typeof import("../../components/dareiacoffee-components/DareiaHero.vue")['default']
+  'DareiacoffeeComponentsDareiaRole': typeof import("../../components/dareiacoffee-components/DareiaRole.vue")['default']
+  'DareiacoffeeComponentsVisualCampaign': typeof import("../../components/dareiacoffee-components/VisualCampaign.vue")['default']
   'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   'NuxtErrorBoundary': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -87,6 +95,14 @@ interface _GlobalComponents {
   'LazyWhyWorkWithMe': LazyComponent<typeof import("../../components/WhyWorkWithMe.vue")['default']>
   'LazyWhyWorkWithMeHeader': LazyComponent<typeof import("../../components/WhyWorkWithMeHeader.vue")['default']>
   'LazyWorkExperience': LazyComponent<typeof import("../../components/WorkExperience.vue")['default']>
+  'LazyDareiacoffeeComponentsBeforeAfterSlider': LazyComponent<typeof import("../../components/dareiacoffee-components/BeforeAfterSlider.vue")['default']>
+  'LazyDareiacoffeeComponentsBentoItem': LazyComponent<typeof import("../../components/dareiacoffee-components/BentoItem.vue")['default']>
+  'LazyDareiacoffeeComponentsDareiaAbout': LazyComponent<typeof import("../../components/dareiacoffee-components/DareiaAbout.vue")['default']>
+  'LazyDareiacoffeeComponentsDareiaCTA': LazyComponent<typeof import("../../components/dareiacoffee-components/DareiaCTA.vue")['default']>
+  'LazyDareiacoffeeComponentsDareiaCarousel': LazyComponent<typeof import("../../components/dareiacoffee-components/DareiaCarousel.vue")['default']>
+  'LazyDareiacoffeeComponentsDareiaHero': LazyComponent<typeof import("../../components/dareiacoffee-components/DareiaHero.vue")['default']>
+  'LazyDareiacoffeeComponentsDareiaRole': LazyComponent<typeof import("../../components/dareiacoffee-components/DareiaRole.vue")['default']>
+  'LazyDareiacoffeeComponentsVisualCampaign': LazyComponent<typeof import("../../components/dareiacoffee-components/VisualCampaign.vue")['default']>
   'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   'LazyNuxtErrorBoundary': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>

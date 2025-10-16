@@ -249,7 +249,7 @@ const projects = [
     logo: '/dclogo.png',
     role: 'Graphic Designer & Brand Identity',
     description: 'Crafted a warm and inviting brand identity for a premium coffee experience.',
-    projectLink: '#dareia',
+    projectLink: '/projects/dareia-coffee',
     socialLink: 'https://instagram.com/',
     imageSrc: '/coffees.png',
     bgColor: 'from-blue-600 to-blue-800',
