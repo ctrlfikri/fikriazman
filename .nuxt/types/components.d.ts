@@ -27,6 +27,8 @@ interface _GlobalComponents {
   'OfficialProjects': typeof import("../../components/OfficialProjects.vue")['default']
   'ProjectBanner': typeof import("../../components/ProjectBanner.vue")['default']
   'ProjectCard': typeof import("../../components/ProjectCard.vue")['default']
+  'ProjectSectionHeader': typeof import("../../components/ProjectSectionHeader.vue")['default']
+  'ProjectsHero': typeof import("../../components/ProjectsHero.vue")['default']
   'RoleCard': typeof import("../../components/RoleCard.vue")['default']
   'SelfWorks': typeof import("../../components/SelfWorks.vue")['default']
   'SkillCard': typeof import("../../components/SkillCard.vue")['default']
@@ -73,6 +75,8 @@ interface _GlobalComponents {
   'LazyOfficialProjects': LazyComponent<typeof import("../../components/OfficialProjects.vue")['default']>
   'LazyProjectBanner': LazyComponent<typeof import("../../components/ProjectBanner.vue")['default']>
   'LazyProjectCard': LazyComponent<typeof import("../../components/ProjectCard.vue")['default']>
+  'LazyProjectSectionHeader': LazyComponent<typeof import("../../components/ProjectSectionHeader.vue")['default']>
+  'LazyProjectsHero': LazyComponent<typeof import("../../components/ProjectsHero.vue")['default']>
   'LazyRoleCard': LazyComponent<typeof import("../../components/RoleCard.vue")['default']>
   'LazySelfWorks': LazyComponent<typeof import("../../components/SelfWorks.vue")['default']>
   'LazySkillCard': LazyComponent<typeof import("../../components/SkillCard.vue")['default']>

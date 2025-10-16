@@ -2,7 +2,7 @@
   <section class="max-w-7xl mx-auto px-6 py-24 bg-gradient-to-b from-black via-[#0a0a0f] to-[#050507]">
     <!-- Bento Grid -->
     <div
-      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 auto-rows-[280px] md:auto-rows-[340px]"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 auto-rows-[320px] md:auto-rows-[340px]"
     >
       <!-- 🧠 Project 1: AI Trading Website -->
       <NuxtLink

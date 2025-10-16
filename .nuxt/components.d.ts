@@ -27,6 +27,8 @@ export const Navbar: typeof import("../components/Navbar.vue")['default']
 export const OfficialProjects: typeof import("../components/OfficialProjects.vue")['default']
 export const ProjectBanner: typeof import("../components/ProjectBanner.vue")['default']
 export const ProjectCard: typeof import("../components/ProjectCard.vue")['default']
+export const ProjectSectionHeader: typeof import("../components/ProjectSectionHeader.vue")['default']
+export const ProjectsHero: typeof import("../components/ProjectsHero.vue")['default']
 export const RoleCard: typeof import("../components/RoleCard.vue")['default']
 export const SelfWorks: typeof import("../components/SelfWorks.vue")['default']
 export const SkillCard: typeof import("../components/SkillCard.vue")['default']
@@ -73,6 +75,8 @@ export const LazyNavbar: LazyComponent<typeof import("../components/Navbar.vue")
 export const LazyOfficialProjects: LazyComponent<typeof import("../components/OfficialProjects.vue")['default']>
 export const LazyProjectBanner: LazyComponent<typeof import("../components/ProjectBanner.vue")['default']>
 export const LazyProjectCard: LazyComponent<typeof import("../components/ProjectCard.vue")['default']>
+export const LazyProjectSectionHeader: LazyComponent<typeof import("../components/ProjectSectionHeader.vue")['default']>
+export const LazyProjectsHero: LazyComponent<typeof import("../components/ProjectsHero.vue")['default']>
 export const LazyRoleCard: LazyComponent<typeof import("../components/RoleCard.vue")['default']>
 export const LazySelfWorks: LazyComponent<typeof import("../components/SelfWorks.vue")['default']>
 export const LazySkillCard: LazyComponent<typeof import("../components/SkillCard.vue")['default']>
