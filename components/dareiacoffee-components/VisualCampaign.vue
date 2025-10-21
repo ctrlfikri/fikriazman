@@ -29,10 +29,10 @@ const campaigns = [
     platforms: 'IG, FB',
     objective: 'Brand awareness',
     images: {
-      ultraWide: '/path/to/opening-ultrawide.jpg',
-      square1: '/path/to/opening-square1.jpg',
-      square2: '/path/to/opening-square2.jpg',
-      a2: '/path/to/opening-a2.jpg'
+      ultraWide: '/horizontal banner-2.webp',
+      square1: '/mednes-1.webp',
+      square2: '/mednes-2.webp',
+      a2: '/vertical banner-2.webp'
     }
   },
   {
@@ -44,10 +44,10 @@ const campaigns = [
     platforms: 'IG, TikTok',
     objective: 'Seasonal sales',
     images: {
-      ultraWide: '/path/to/summer-ultrawide.jpg',
-      square1: '/path/to/summer-square1.jpg',
+      ultraWide: '/horizontal banner-3.webp',
+      square1: '/mffn-1.webp',
       square2: '/path/to/summer-square2.jpg',
-      a2: '/path/to/summer-a2.jpg'
+      a2: '/vertical banner-3.webp'
     }
   }
 ]

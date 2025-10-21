@@ -3,18 +3,52 @@
     <div class="max-w-7xl mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 xl:gap-16 items-center">
         
-        <!-- Image (Left on Desktop) -->
+        <!-- Carousel (Left on Desktop) -->
         <div class="relative order-2 lg:order-1">
           <div class="relative rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-            <!-- Placeholder for banner image -->
-            <div class="aspect-[16/9] bg-white/10 backdrop-blur-sm flex items-center justify-center">
-              <div class="text-center text-white/60">
+            <!-- Images -->
+            <div class="relative aspect-[16/9]">
+              <div
+                v-for="(image, index) in images"
+                :key="index"
+                class="absolute inset-0 transition-opacity duration-500"
+                :class="currentSlide === index ? 'opacity-100' : 'opacity-0'"
+              >
                 <img 
-                  src="/banner.jpg"
-                  alt="Cafe Exterior"
+                  :src="image.src"
+                  :alt="image.alt"
                   class="w-full h-full object-cover"
                 />
               </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <button
+              @click="prevSlide"
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center hover:bg-white/30 transition-all"
+            >
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+            </button>
+            <button
+              @click="nextSlide"
+              class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center hover:bg-white/30 transition-all"
+            >
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+
+            <!-- Dots Indicator -->
+            <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+              <button
+                v-for="(image, index) in images"
+                :key="index"
+                @click="goToSlide(index)"
+                class="w-2 h-2 rounded-full transition-all"
+                :class="currentSlide === index ? 'bg-white w-8' : 'bg-white/50'"
+              />
             </div>
             
             <!-- Decorative Border -->
@@ -80,6 +114,25 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
+const currentSlide = ref(0)
+
+const images = [
+  {
+    src: '/coffees.png',
+    alt: 'Cafe Exterior'
+  },
+  {
+    src: '/mokup.png',
+    alt: 'Cafe Image 2'
+  },
+  {
+    src: '/voucher.png',
+    alt: 'Cafe Image 3'
+  }
+]
+
 const services = [
   {
     id: 1,
@@ -106,6 +159,18 @@ const services = [
     desc: 'Banners, posters, and campaign visuals'
   }
 ]
+
+const nextSlide = () => {
+  currentSlide.value = (currentSlide.value + 1) % images.length
+}
+
+const prevSlide = () => {
+  currentSlide.value = (currentSlide.value - 1 + images.length) % images.length
+}
+
+const goToSlide = (index) => {
+  currentSlide.value = index
+}
 </script>
 
 <style scoped>

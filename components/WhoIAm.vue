@@ -1,7 +1,5 @@
 <template>
   <section class="relative w-full bg-black text-white">
-    <!-- LED Header Component -->
-    <WhoIAmHeader />
     
     <div class="max-w-7xl mx-auto px-6 py-20">
 
